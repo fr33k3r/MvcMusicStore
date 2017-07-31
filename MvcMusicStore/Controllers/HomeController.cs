@@ -13,6 +13,11 @@ namespace MvcMusicStore.Controllers
             return View();
         }
 
+        public ActionResult Edit()
+        {
+            return View();
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "A Story about a Music Store";
